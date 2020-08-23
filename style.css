@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    font-size:62.5%;
+    font-family:"Roboto",sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.background{
+    background-color:rgb(194, 194, 194);
+    height:100vh;
+    width:100vw;
+}
+
+h1{
+    font-size:4rem;
+    font-weight:500;
+    color:dodgerblue;
+}
+
+h2{
+    font-size:2.5rem;
+    font-weight:400;
+}
+
+h3{
+    font-size:2rem;
+    font-weight:400;
+}
+
+p{
+    font-size:2rem;
+}
+
+.main-container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:75vw;
+    background-color:white;
+    filter:drop-shadow(4px 4px 10px black);
+    padding:12rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+header{
+    display:flex;
+    background-color:white;
+    /* width:80%; */
+    /* height:auto; */
+    padding:3rem;
+    border:1px solid rgb(117, 117, 117);
+}
+
+.headshot-container{
+    display:flex;
+    flex-direction:column;
+    width:30%;
+    min-height:100%;
+}
+
+.headshot-container a{
+    text-align:center;
+    padding:1rem 3rem;
+    border:1px solid rgb(117, 117, 117);
+    color:black;
+    font-size:2rem;
+    text-transform:uppercase;
+    font-weight:300;
+}
+
+.headshot-container a:hover{
+    color:dodgerblue;
+}
+
+.headshot-container img{ 
+    width:100%;
+    margin-bottom:2rem;
+    border:1px solid rgb(117, 117, 117);
+}
+
+.about-container{
+    min-height:100%;
+    width:70%;
+    margin-left:3rem;
+    display:flex;
+    flex-direction:column;
+}
+
+.about-container .name-container{
+    margin-bottom:2rem;
+}
+
+.about-container ul{
+    display:flex;
+    list-style-type:none;
+}
+
+.socials-container{
+    margin-top:auto;
+}
+
+.socials-container ul li a{
+    padding:1rem 2rem;
+    border: 1px solid black;
+    font-size:3rem;
+    color:black;
+    margin-right:1rem;
+    display:inline-block;
+}
+
+.socials-container ul{
+    margin-top:1rem;
+    text-align:center;
+}
+
+/* SKILLS */
+.skills-module-container{
+    display:flex;
+}
+
+.education-module{
+    position:relative;
+    width:50%;
+    background-color:white;
+    border:1px solid black;
+}
+
+.education-module .banner{
+    position:absolute;
+    top:10%;
+    left:-5%;
+    background-color:dodgerblue;
+    width:10rem;
+    height:4rem;
+}
+
+.education-module .banner-depth{
+    position:absolute;
+    top:100%;
+    left:0%;
+    height:100%;
+    width:100%;
+    background-color:rgb(16, 70, 124);
+    clip-path:polygon(0 0, 30% 0, 30% 30%);
+}
+
+.education-module-text{
+    margin-top:10rem;
+}
