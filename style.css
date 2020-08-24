@@ -146,16 +146,17 @@ header{
     background-color:dodgerblue;
     width:10rem;
     height:4rem;
+    filter:drop-shadow(2px 2px 1px black);
 }
 
-.education-module .banner-depth{
+.banner .banner-depth{
     position:absolute;
     top:100%;
     left:0%;
     height:100%;
     width:100%;
     background-color:rgb(16, 70, 124);
-    clip-path:polygon(0 0, 30% 0, 30% 30%);
+    clip-path:polygon(0 0, 30% 0, 30% 20%);
 }
 
 .education-module-text{
